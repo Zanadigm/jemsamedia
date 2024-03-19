@@ -9267,6 +9267,19 @@ header>.uk-sticky {
     color: #fff !important
 }
 
+.video-background {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.video-background video {
+    min-width: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
 .uk-light .uk-column-divider,
 .uk-section-primary:not(.uk-preserve-color) .uk-column-divider,
 .uk-section-secondary:not(.uk-preserve-color) .uk-column-divider,
