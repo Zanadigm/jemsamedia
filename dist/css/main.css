@@ -1589,8 +1589,16 @@ select.uk-form-width-xsmall {
 }
 
 .uk-section-primary {
-    background: #DB4140
+    background: #5354c8
 }
+
+.uk-card-media-top:hover #profile{
+    transform: scale(1.1);
+}
+#profile{
+    transition: transform 0.3s ease;
+}
+
 
 .uk-section-secondary {
     background: #3f3c56
@@ -2262,7 +2270,8 @@ select.uk-form-width-xsmall {
 }
 
 .uk-border-medium>.uk-card-media-top {
-    margin: -4px -2px
+    margin: -4px -2px;
+    overflow: hidden;
 }
 
 .uk-close {
