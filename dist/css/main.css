@@ -4527,7 +4527,8 @@ ul.uk-nav-sub {
 
 @media (min-width: 640px) {
     .uk-width-1-1\@s {
-        width: 100%
+        width: 100%;
+        height: 320px;
     }
 
     .uk-width-1-2\@s {
@@ -5952,6 +5953,10 @@ header>.uk-sticky {
 
 .uk-background-primary-light {
     background-color: #ED4852
+}
+
+.uk-background-secondary-light {
+    background-color: #FFA500
 }
 
 .hvr-forward {
