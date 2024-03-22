@@ -2117,6 +2117,38 @@ select.uk-form-width-xsmall {
     box-sizing: border-box;
     transition: box-shadow 0.1s ease-in-out
 }
+#service-card {
+    transition: background-color 0.4s, color 1s, box-shadow 0.4s, border-color 0.4s, transform 0.4s, border-radius 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-card h3{
+    text-align: center;
+}
+
+#service-card:hover{
+    background: #FFA500;
+    color: #d4d4d4;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-color:#FFA500;
+    border-radius: 4px;
+    transform: scale(1.05);
+}
+
+#service-card:hover h3{
+    color: #fff;
+}
+
+#service-card:hover hr{
+    border-color: #fff;
+}
+
+#service-card:hover svg{
+    color: #fff;
+}
 
 .uk-card-body {
     padding: 30px 30px
