@@ -21,7 +21,7 @@ a:hover {
 
 a,
 .uk-link {
-    color: #DB4140;
+    color: #5354c8;
     text-decoration: none;
     cursor: pointer
 }
@@ -434,7 +434,7 @@ a.uk-link-reset,
     bottom: 2px;
     height: 1px;
     width: 100%;
-    background: #DB4140
+    background: #5354c8
 }
 
 .uk-link-border:hover:after {
