@@ -34,8 +34,8 @@
               <li><a data-uk-scroll="offset: 80" href="#about">About</a></li>
               <li><a data-uk-scroll="offset: 80" href="#services">Services <span uk-icon="triangle-down"></span></a></li>
                 <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
-                  <ul class="uk-nav uk-dropdown-nav uk-text-uppercase">
-                      <li><a href="#">Digital Marteting </a></li>
+                  <ul class="uk-nav uk-dropdown-nav">
+                      <li><a href="#">Digital Marketing </a></li>
                       <!-- <li class="uk-nav-header">Header</li> -->
                       <li><a href="#">Software Development</a></li>
                       <li><a href="#">Audio-Visual Production</a></li>
@@ -67,10 +67,10 @@
 
 <!--About Section-->
 
-<div id="about" class="uk-section uk-section-large uk-section-primary">
+<div id="about" class="uk-section uk-section-primary uk-section-medium">
   <div class="uk-container">
     <div class="uk-child-width-1-2@m uk-grid-match" data-uk-grid>
-      <div data-uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true; delay: 300">
+      <div data-uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true; delay: 100">
         <div class="uk-padding-large uk-padding-remove-left uk-padding-remove-vertical uk-flex uk-flex-column">
           <h2 class="uk-heading-small uk-margin-medium-top">About Us</h2>
           <div class="uk-margin-auto-bottom">
@@ -108,35 +108,51 @@
 
 <!--Services section-->
 
-<div id="services" class="uk-section uk-section-primary- uk-section-large">
+<div id="services" class="uk-section uk-section-large">
   <div class="uk-container">
-    
-    <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small"></h3>
-    <h2 class="uk-heading-small uk-margin-medium">Services</h2>
+  
+    <h2 class="uk-text-center uk-heading-small" data-uk-scrollspy="cls: uk-animation-slide-top-small; repeat: true; delay: 100">What We Do</h2>
+
+    <p class="uk-text-center uk-margin-large uk-letter-spacing-small" data-uk-scrollspy="cls: uk-animation-slide-top-small; repeat: true; delay: 100">
+      Tailored solutions for your success. Elevate your experience with our exeptional and comprehensive services.
+    <p>
 
     <div class="uk-child-width-1-4@l uk-grid-match" data-uk-grid>
-      <div>
-        <div class="uk-padding uk-background-muted">
-          <div class="uk-text-center">
-            <img src="./images/digital_marketing.png" alt="Icon" data-uk-svg style="height: 120px; width: 120px;">
-            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Digital Marketing & Advertising</h3>
-          </div>
-          <p class="uk-text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum similique minima ipsum perferendis.</p>
+      <div class="uk-text-left ">
+        <div class="uk-padding uk-background-muted uk-box-shadow-large">
+          <img class=" uk-margin-medium uk-icon-large" src="./images/digital-marketing.png" alt="Icon" data-uk-svg style="height: 70px;">
+          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Digital Marketing & Advertising</h3>
+          
+          <p>Our omprehensive digital marketing services include, social media marketing, SEO, influencer marketing, advertising campaigns.</p>
           <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
             <a class="hvr-forward" href="#">Learn More
               <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
             </a>
           </h5>
         </div>
-      </div> 
-
-      <div>
-        <div class="uk-padding uk-background-muted">
-          <div class="uk-text-center">
-            <img src="./images/web_design.png" alt="Icon" data-uk-svg style="height: 120px; width: 120px;">
-            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Software Development</h3>
-          </div>
-          <p class="uk-text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum similique minima ipsum perferendis.</p>
+      </div>
+      
+      <div class="uk-text-left">
+        <div class="uk-padding uk-background-muted uk-box-shadow-large">
+          <img class=" uk-margin-medium uk-icon-large" src="./images/webdev.png" alt="Icon" data-uk-svg style="height: 70px;">
+          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Software Development</h3>
+          
+          <p>We build excellent websites with a positive user experience, effective communication, and overall functionality.</p>
+          <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
+            <a class="hvr-forward" href="#">Learn More
+              <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
+            </a>
+          </h5>
+        </div>
+      </div>
+      
+      <div class="uk-text-left">
+        <div class="uk-padding uk-background-muted uk-box-shadow-large">
+          <img class=" uk-margin-medium uk-icon-large" src="./images/viso.png" alt="Icon" data-uk-svg style="height: 70px;">
+          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Audio-Visual Production</h3>
+          
+          <p>We seamlessly blend audio and visual elements to ensure your story is impactful across various platforms.
+          </p>
           <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
             <a class="hvr-forward" href="#">Learn More
               <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
@@ -145,13 +161,12 @@
         </div>
       </div>
 
-      <div>
-        <div class="uk-padding uk-background-muted">
-          <div class="uk-text-center">
-            <img src="./images/audio_visual.png" alt="Icon" data-uk-svg style="height: 120px; width: 120px;">
-            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Audio-Visual Production</h3>
-          </div>
-          <p class="uk-text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum similique minima ipsum perferendis.</p>
+      <div class="uk-text-left">
+        <div class="uk-padding uk-background-muted uk-box-shadow-large">
+          <img class=" uk-margin-medium uk-icon-large" src="./images/print-product.png" alt="Icon" data-uk-svg style="height: 70px;">
+          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Printing & Branding</h3>
+          
+          <p>We help businesses build a strong visual and consistent identity with our printing and branding services.</p>
           <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
             <a class="hvr-forward" href="#">Learn More
               <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
@@ -159,21 +174,6 @@
           </h5>
         </div>
       </div>
-
-      <div>
-        <div class="uk-padding uk-background-muted">
-          <div class="uk-text-center">
-            <img src="./images/design&printing.png" alt="Icon" data-uk-svg style="height: 120px; width: 120px;">
-            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Printing & Branding</h3>
-          </div>
-          <p class="uk-text-justify">We help businesses create a strong and consistent visual identity through our printing and promotional branding services.</p>
-          <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-            <a class="hvr-forward" href="#">Learn More
-              <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
-            </a>
-          </h5>
-        </div>
-      </div> 
 
     </div>
   </div>
@@ -183,14 +183,14 @@
 
 <div id="projects" class="uk-section uk-section-large">
   <div class="uk-container">
-    <div class="uk-visible-toggle" tabindex="-1" data-uk-slider="autoplay: false">
+    <div class="uk-visible-toggle uk-box-shadow-xlarge" tabindex="-1" data-uk-slider="autoplay: true; autoplay-interval: 4000;">
       <div class="uk-position-relative">
-        <div class="uk-slider-container uk-box-shadow-medium uk-background-primary-light">
+        <div class="uk-slider-container uk-box-shadow-medium uk-background-secondary-light">
           <ul class="uk-slider-items uk-child-width-1-1">
             <li>
               <div class="uk-grid-collapse" data-uk-grid>
                 <div class="uk-width-1-2@s">
-                  <img src="https://placehold.co/600x600" alt="Slide">
+                  <img src="https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Slide" style="height: 600px;">
                 </div>
                 <div class="uk-width-expand@s uk-flex uk-flex-middle">
                   <div class="uk-padding-large">
@@ -214,7 +214,7 @@
             <li>
               <div class="uk-grid-collapse" data-uk-grid>
                 <div class="uk-width-1-2@s">
-                  <img src="https://placehold.co/600x600" alt="Slide">
+                  <img src="https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Slide" style="height: 600px;">
                 </div>
                 <div class="uk-width-expand@s uk-flex uk-flex-middle">
                   <div class="uk-padding-large">
@@ -253,7 +253,7 @@
 
 <!--Team section-->
 
-<div id="team" class="uk-section uk-section-primary uk-section-large">
+<div id="team" class="uk-section uk-section-primary uk-section-medium">
   <div class="uk-container">
     <h2 class="uk-heading-small">Our Team</h2>
 
@@ -392,47 +392,61 @@
 <div id="clients" class="uk-section uk-section-large">
   <div class="uk-container">
 
-    <h2 class="uk-heading-small uk-margin-medium uk-text-center">Here are some of our clients</h2>
+    <h2 class="uk-heading-small uk-margin-medium uk-text-center">Our Clients</h2>
 
-    <div class="uk-child-width-1-2@s uk-child-width-1-5@m uk-grid-match uk-margin-large-top" data-uk-grid>
-      <!-- <div>
-        <div class="uk-flex uk-flex-column uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top">
-          <h2 class="uk-heading-small uk-margin-top">Our Clients</h2>
-          <hr class="uk-margin-auto-top uk-separator-small uk-separator-primary">
-        </div>
-      </div>  -->
+    <div uk-slider="autoplay: true; autoplay-interval: 4000; pause-on-hover: true; sets: 2">
+      <div class="uk-position-relative">
 
-      <div>
-        <div class="uk-card-small uk-background-muted uk-text-center">
-          <img class="uk-width-1-1" src="https://aalodges.com/wp-content/uploads/2015/06/logo.png" alt="Logo" data-uk-svg >
-        </div>
-      </div> 
+          <div class="uk-slider-container uk-light">
+              <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
 
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1" src="https://eujimsolutions.com/wp-content/uploads/2023/01/Eujim-Logo.png" alt="Logo" data-uk-svg >
-        </div>
-      </div> 
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/obc-kitengela.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/densmile.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/aa-lodges.jpg" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/tanqueray.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
 
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1" src="./images/KCB.png" alt="Logo" data-uk-svg >
-        </div>
-      </div> 
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/eujim-logo.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
 
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1" src="./images/obc-kitengela.png" alt="Logo" data-uk-svg>
-        </div>
-      </div> 
-
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1" src="./images/tangueray.png" alt="Logo" data-uk-svg>
-        </div>
-      </div> 
-
-    </div>
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/kcb.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+              </ul>
+          </div>
+  
+          <div class="uk-hidden@s uk-light">
+              <a class="uk-position-center-left uk-position-small" href uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small" href uk-slidenav-next uk-slider-item="next"></a>
+          </div>
+  
+          <div class="uk-visible@s">
+              <a class="uk-position-center-left-out uk-position-small" href uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right-out uk-position-small" href uk-slidenav-next uk-slider-item="next"></a>
+          </div>
+  
+      </div>
+  </div>
   </div>
 </div>
 
@@ -450,7 +464,8 @@
             Contact us today to embark on a journey of unparalleled growth and success in the digital landscape.
           </p>          
           <div class="uk-margin-medium-top uk-h4 uk-letter-spacing-small">
-            <div>Phone: <a class="uk-link-border uk-link-border-bold" href="tel:55-873-1234">55-873-1234</a></div>
+            <div>Phone: <a class="uk-link-border uk-link-border-bold" href="tel:+254110284677">0110 284 6774</a></div>
+            <div>Phone: <a class="uk-link-border uk-link-border-bold" href="tel:+254740953042">0740 953 042</a></div>
             <div class="uk-margin-top">Email: <a class="uk-link-border uk-link-border-bold" href="info@jemsamediatech.africa">info@jemsamediatech.africa</a></div>
           </div>
         </div>
