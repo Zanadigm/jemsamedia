@@ -3451,9 +3451,9 @@ ul.uk-nav-sub {
     margin-top: -10px
 }
 
-[class*='uk-dropdown-bottom'] {
+/* [class*='uk-dropdown-bottom'] {
     margin-top: 10px
-}
+} */
 
 [class*='uk-dropdown-left'] {
     margin-left: -10px
@@ -5291,15 +5291,15 @@ iframe.uk-cover {
 }
 
 .uk-background-muted {
-    background-color: #f8f8fa
+    background-color: #dddddd
 }
 
 .uk-background-primary {
-    background-color: #DB4140
+    background-color: #5354c8
 }
 
 .uk-background-secondary {
-    background-color: #3f3c56
+    background-color: #FFA500
 }
 
 .uk-background-cover,
@@ -5984,7 +5984,7 @@ header>.uk-sticky {
 }
 
 .uk-background-primary-light {
-    background-color: #ED4852
+    background-color: #5354c8
 }
 
 .uk-background-secondary-light {
