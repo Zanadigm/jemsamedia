@@ -1,56 +1,60 @@
 <div id="clients" class="uk-section uk-section-large">
   <div class="uk-container">
-    <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match" data-uk-grid>
-      <div>
-        <div class="uk-flex uk-flex-column uk-padding-small uk-padding-remove-horizontal uk-padding-remove-top">
-          <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Selected</h3>
-          <h2 class="uk-heading-small uk-margin-top">Clients</h2>
-          <hr class="uk-margin-auto-top uk-separator-small uk-separator-primary">
-          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small"><a class="hvr-forward" href="#contact" data-uk-scroll="offset: 200">Contact<span class="uk-margin-left" data-uk-icon="arrow-right"></span></a></h3>
-        </div>
-      </div> 
-      <div>
-        <div class="uk-padding uk-background-primary uk-text-center uk-light">
-          <img class="uk-width-1-1" src="https://placehold.co/140x80" alt="Logo" data-uk-svg>
-          <hr class="uk-separator-small uk-margin-auto">
-          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Default</h3>
-        </div>
-      </div> 
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1" src="https://placehold.co/140x80" alt="Logo" data-uk-svg>
-          <hr class="uk-separator-small uk-margin-auto">
-          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Default</h3>
-        </div>
-      </div> 
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1 uk-text-secondary" src="https://placehold.co/140x80" alt="Logo" data-uk-svg>
-          <hr class="uk-separator-small uk-margin-auto">
-          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Default</h3>
-        </div>
-      </div> 
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1 uk-text-secondary" src="https://placehold.co/140x80" alt="Logo" data-uk-svg>
-          <hr class="uk-separator-small uk-margin-auto">
-          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Default</h3>
-        </div>
-      </div> 
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1 uk-text-secondary" src="https://placehold.co/140x80" alt="Logo" data-uk-svg>
-          <hr class="uk-separator-small uk-margin-auto">
-          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Default</h3>
-        </div>
-      </div> 
-      <div>
-        <div class="uk-padding uk-background-muted uk-text-center">
-          <img class="uk-width-1-1 uk-text-secondary" src="https://placehold.co/140x80" alt="Logo" data-uk-svg>
-          <hr class="uk-separator-small uk-margin-auto">
-          <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Default</h3>
-        </div>
-      </div>       
-    </div>
+
+    <h2 class="uk-heading-small uk-margin-medium uk-text-center">Our Clients</h2>
+
+    <div uk-slider="autoplay: true; autoplay-interval: 4000; pause-on-hover: true; sets: 2">
+      <div class="uk-position-relative">
+
+          <div class="uk-slider-container uk-light">
+              <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/obc-kitengela.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/densmile.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/aa-lodges.jpg" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/tanqueray.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/eujim-logo.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                    <img src="./images/kcb.png" alt="Logo" data-uk-svg>
+                  </div>
+                </li>
+              </ul>
+          </div>
+  
+          <div class="uk-hidden@s uk-light">
+              <a class="uk-position-center-left uk-position-small" href uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small" href uk-slidenav-next uk-slider-item="next"></a>
+          </div>
+  
+          <div class="uk-visible@s">
+              <a class="uk-position-center-left-out uk-position-small" href uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right-out uk-position-small" href uk-slidenav-next uk-slider-item="next"></a>
+          </div>
+  
+      </div>
+  </div>
   </div>
 </div>
