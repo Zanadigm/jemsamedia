@@ -34,21 +34,27 @@
                         <div class="uk-navbar-right">
                             <ul class="uk-navbar-nav uk-visible@m" data-uk-scrollspy-nav="closest: li">
                                 <li><a href="../index.html#header">Home</a></li>
-                                <li><a href="../index.html#about">About</a></li>
-                                <li><a href="">Services <span uk-icon="triangle-down"></span></a></li>
-                                <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
+                                <li><a href="">Services <span uk-icon="chevron-down"></span></a></li>
+                                  <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
                                     <ul class="uk-nav uk-dropdown-nav">
-                                        <li><a href="../services/digitalmarketing.html">Digital Marketing </a></li>
-                                        <!-- <li class="uk-nav-header">Header</li> -->
-                                        <li><a href="../services/digitalmarketing.html">Software Development</a></li>
-                                        <li><a href="../services/audio_visual.html">Audio-Visual Production</a></li>
-                                        <!-- <li class="uk-nav-divider"></li> -->
-                                        <li><a href="../services/printing_branding.html">Printing & Branding</a></li>
+                                      <li><a href="">Digital Marketing <span uk-icon = "chevron-right"></span></a></li>
+                                        <div uk-dropdown="animation: uk-animation-slide-right-small; animate-out: true; offset: 200px; pos: right-top">
+                                          <ul class="uk-nav uk-dropdown-nav">
+                                            <li><a href="../services/social_media_marketing.html">Social Media Marketing</a></li>
+                                            <li><a href="../services/seo.html">Search Engine Optimization</a></li>
+                                            <li><a href="../services/influencer_marketing.html">Influencer Marketing</a></li>
+                                            <li><a href="../services/paid_ads.html">Paid Advertisement</a></li>
+                                          </ul>
+                                        </div>
+                                      <li><a href="../services/software_dev.html">Software Development</a></li>
+                                      <li><a href="../services/audio_visual.html">Audio-Visual Production</a></li>
+                                      <li><a href="../services/printing_branding.html">Printing & Branding</a></li>
                                     </ul>
-                                </div>
-                                <li><a href="#">Portfolio</a></li>
+                                  </div>
+                                <li><a href="../index.html#about">About</a></li>
+                                <li><a href="../projects/index.html">Portfolio</a></li>
                                 <li><a data-uk-scroll="offset: 80" href="#contact">Contact</a></li>
-                            </ul>
+                              </ul>
                             <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span
                                     data-uk-navbar-toggle-icon></span></a>
                         </div>
@@ -344,7 +350,7 @@
                 <li><a href="../index.html#header">Home</a></li>
                 <li><a href="../index.html#about">About</a></li>
                 <li><a href="../index.html#services">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="./index.html">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="uk-margin-medium-top uk-text-center">
