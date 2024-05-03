@@ -1380,20 +1380,20 @@ select.uk-form-width-xsmall {
 }
 
 .uk-button-primary {
-    background-color: #DB4140;
+    background-color: #FFA500;
     color: #fff;
     border: 1px solid transparent
 }
 
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-    background-color: #d72c2b;
+    background-color: #FFA500;
     color: #fff
 }
 
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-    background-color: #c32625;
+    background-color: #FFA500;
     color: #fff
 }
 
