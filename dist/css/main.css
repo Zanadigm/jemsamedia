@@ -1362,14 +1362,15 @@ select.uk-form-width-xsmall {
 .uk-button-default {
     background-color: rgba(0, 0, 0, 0);
     color: #3f3c56;
-    border: 1px solid #3f3c56
+    border: 1px solid #3f3c56;
+    border-radius: 6px
 }
 
 .uk-button-default:hover,
 .uk-button-default:focus {
-    background-color: #3f3c56;
+    background-color: #FFA500;
     color: #fff;
-    border-color: #3f3c56
+    border-color: #FFA500
 }
 
 .uk-button-default:active,
@@ -1382,7 +1383,8 @@ select.uk-form-width-xsmall {
 .uk-button-primary {
     background-color: #FFA500;
     color: #fff;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
 
 .uk-button-primary:hover,
@@ -1400,7 +1402,8 @@ select.uk-form-width-xsmall {
 .uk-button-secondary {
     background-color: #3f3c56;
     color: #fff;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    border-radius: 6px;
 }
 
 .uk-button-secondary:hover,
@@ -2380,8 +2383,17 @@ select.uk-form-width-xsmall {
     background: rgba(255, 255, 255, 0.8)
 }
 
-.uk-overlay-primary {
+.uk-overlay-dark {
     background: rgba(63, 60, 86, 0.8)
+
+}
+
+.uk-overlay-primary {
+    background: rgba(83, 84, 200, 0.8)
+}
+
+.uk-overlay-secondary {
+    background: rgba(255, 165, 0, 0.8)
 }
 
 .uk-article::before,
@@ -2752,11 +2764,11 @@ ul.uk-nav-sub {
 
 .uk-nav-primary>li>a:hover,
 .uk-nav-primary>li>a:focus {
-    color: #DB4140
+    color: #FFA500
 }
 
 .uk-nav-primary>li.uk-active>a {
-    color: #DB4140
+    color: #faa05a
 }
 
 .uk-nav-primary .uk-nav-header {
@@ -2901,7 +2913,7 @@ ul.uk-nav-sub {
 }
 
 .uk-navbar-nav>li.uk-active>a {
-    color: #DB4140
+    color: #FFA500
 }
 
 .uk-navbar-item {
@@ -2915,7 +2927,7 @@ ul.uk-nav-sub {
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle:focus,
 .uk-navbar-toggle.uk-open {
-    color: #DB4140;
+    color: #FFA500;
     outline: none;
     text-decoration: none
 }
@@ -3008,11 +3020,11 @@ ul.uk-nav-sub {
 
 .uk-navbar-dropdown-nav>li>a:hover,
 .uk-navbar-dropdown-nav>li>a:focus {
-    color: #DB4140
+    color: #FFA500
 }
 
 .uk-navbar-dropdown-nav>li.uk-active>a {
-    color: #DB4140
+    color: #FFA500
 }
 
 .uk-navbar-dropdown-nav .uk-nav-header {
@@ -3144,7 +3156,7 @@ ul.uk-nav-sub {
 }
 
 .uk-subnav-pill>.uk-active>a {
-    background-color: #DB4140;
+    background-color: #FFA500;
     color: #fff
 }
 
