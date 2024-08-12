@@ -66,8 +66,8 @@
 
   <!--Hero Section-->
 
-  <div>
-    <div id="hero-section" class="uk-section uk-light uk-padding-remove-top uk-position-relative uk-overflow-hidden uk-visible@m"
+  <div class="uk-section uk-padding-remove-top">
+    <div id="hero-section" class="uk-light uk-position-relative uk-overflow-hidden uk-visible@m"
     data-uk-height-viewport="offset-top: true">
       <div class="uk-container uk-position-relative uk-height-viewport">
         <video autoplay loop muted playsinline class="uk-cover-object uk-position-absolute uk-position-cover"
@@ -390,8 +390,36 @@
                       <img src="./images/profile.jpg" alt="Tow Sawyer">
                     </div>
                     <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Alex Tomson</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Art Director</p>
+                      <h3 class="uk-card-title uk-margin-remove">Japhet Musyoka</h3>
+                      <p class="uk-text-small uk-margin-xsmall">Founder/CEO</p>
+                      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
+                        <div>
+                          <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
+                            target="_blank"></a>
+                        </div>
+                        <div>
+                          <a href="#" data-uk-icon="icon: instagram; ratio: .8" class="uk-icon-link uk-icon"
+                            target="_blank"></a>
+                        </div>
+                        <div>
+                          <a href="#" data-uk-icon="icon: twitter; ratio: .8" class="uk-icon-link uk-icon"
+                            target="_blank"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="uk-card uk-card-small uk-border-medium">
+                  <div class="uk-inline">
+                    <div class="uk-card-media-top">
+                      <img src="./images/profile.jpg" alt="Tow Sawyer">
+                    </div>
+                    <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
+                      <h3 class="uk-card-title uk-margin-remove">Kir</h3>
+                      <p class="uk-text-small uk-margin-xsmall">Creative Director</p>
                       <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
                         <div>
                           <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
@@ -447,7 +475,7 @@
                     </div>
                     <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
                       <h3 class="uk-card-title uk-margin-remove">Alex Tomson</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Art Director</p>
+                      <p class="uk-text-small uk-margin-xsmall">Digital Marketing Executive</p>
                       <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
                         <div>
                           <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
@@ -474,8 +502,8 @@
                       <img src="./images/profile.jpg" alt="Tow Sawyer">
                     </div>
                     <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Alex Tomson</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Art Director</p>
+                      <h3 class="uk-card-title uk-margin-remove">Felix</h3>
+                      <p class="uk-text-small uk-margin-xsmall">Chief Technology Officer</p>
                       <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
                         <div>
                           <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
@@ -502,8 +530,8 @@
                       <img src="./images/profile.jpg" alt="Tow Sawyer">
                     </div>
                     <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Alex Tomson</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Art Director</p>
+                      <h3 class="uk-card-title uk-margin-remove">Bill</h3>
+                      <p class="uk-text-small uk-margin-xsmall">Graphics Designer</p>
                       <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
                         <div>
                           <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
@@ -712,23 +740,30 @@
         data-uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
         <li><a href="#header">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="">Services</a></li>
-        <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
-          <ul class="uk-nav uk-dropdown-nav">
+        <li><a class="uk-accordion-title" href="">Services</a></li>
+          <div class="uk-accordion-content">
+            <ul class="uk-nav uk-nav-primary">
+              <li><a href="">Digital Marketing</a><li>
+              <li><a href="">Software Development</a><li></li>
+            </ul>
+          </div>
+        
+        <!-- <li><a href="">Services</a></li>
+        <div uk-dropdown>
+          <ul uk-accordion>
             <li><a href="">Digital Marketing <span uk-icon = "chevron-right"></span></a></li>
-              <div uk-dropdown="animation: uk-animation-slide-right-small; animate-out: true; offset: 200px; pos: right-top">
-                <ul class="uk-nav uk-dropdown-nav">
+              <div class="uk-accordion-item">
                   <li><a href="./services/social_media_marketing.html">Social Media Marketing</a></li>
                   <li><a href="./services/seo.html">Search Engine Optimization</a></li>
                   <li><a href="./services/influencer_marketing.html">Influencer Marketing</a></li>
                   <li><a href="./services/paid_ads.html">Paid Advertisement</a></li>
-                </ul>
               </div>
+              
             <li><a href="./services/software_dev.html">Software Development</a></li>
             <li><a href="./services/audio_visual.html">Audio-Visual Production</a></li>
             <li><a href="./services/printing_branding.html">Printing & Branding</a></li>
           </ul>
-        </div>
+        </div> -->
         <li><a href="./projects/index.html">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
