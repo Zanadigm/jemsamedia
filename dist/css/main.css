@@ -1471,7 +1471,6 @@ select.uk-form-width-xsmall {
     bottom: 0;
     left: 0;
     right: 100%;
-    border-bottom: 1px solid #333;
     transition: right 0.3s ease-out
 }
 
