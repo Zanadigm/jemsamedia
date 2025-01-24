@@ -1,4 +1,5 @@
-.vscode
+.vscode/
 node_modules/
-JEMSA MEDIA TECH WEBSITE MOCK.docx
-jemsamedia.code-workspace
+src/
+config.codekit3
+prepros.config

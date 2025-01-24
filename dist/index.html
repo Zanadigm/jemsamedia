@@ -51,9 +51,9 @@
                     <li><a href="./services/printing_branding.html">Printing & Branding</a></li>
                   </ul>
                 </div>
-                <li><a href="#about">About</a></li>
+                <li><a href="#section-about">About</a></li>
                 <li><a href="projects/index.html">Portfolio</a></li>
-                <li><a data-uk-scroll="offset: 80" href="#contact">Contact</a></li>
+                <li><a data-uk-scroll="offset: 80" href="#section-contact">Contact</a></li>
               </ul>
               <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle>
                 <span data-uk-navbar-toggle-icon></span>
@@ -65,20 +65,18 @@
     </div>
   </header>
 
-  <!--Hero Section-->
+  <!-- Section hero -->
 
-  <div class="uk-section uk-padding-remove-top">
-    <div id="hero-section" class="">
-      <div class="uk-container uk-position-relative">
-        <iframe src="./images/hero.mp4" width="1920" height="1080" uk-responsive uk-video="automute: true autoplay:true loop:true" style="border-radius: 6px;"></iframe>
-      </div>
+  <div id="scetion_hero" class="uk-section-large uk-padding-remove-top uk-flex uk-flex-middle uk-flex-center">
+    <div class="uk-container">
+      <video autoplay muted loop playsinline style="max-width:100%; height: auto; border-radius: 6px"
+        src="./images/hero.mp4"></video>
     </div>
-
   </div>
 
-  <!--About Section-->
+  <!-- Section about -->
 
-  <div id="about" class="uk-section uk-section-primary uk-section-medium">
+  <div id="section-about" class="uk-section uk-section-primary uk-section-medium">
     <div class="uk-container">
       <div class="uk-child-width-1-2@m uk-grid-match" data-uk-grid>
         <div data-uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true; delay: 100">
@@ -97,14 +95,11 @@
                 To empower brands to thrive in the digital landscape by delivering innovative, data-driven marketing
                 solutions that transcend boundaries, spark conversations, and cultivate lasting brand loyalty.
               </p>
-              <!-- <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Our Vision</h3>
-            <p>
-              To create the strongest bond between brands and consumers in Africa.
-            </p>         -->
             </div>
             <hr class="uk-margin-auto-top uk-separator-small">
             <div class="uk-margin-medium-top">
-              <a href="#contact" class="uk-button uk-button-large uk-button-primary" data-uk-scroll="offset: 80">Get in
+              <a href="#section-contact" class="uk-button uk-button-large uk-button-primary"
+                data-uk-scroll="offset: 80">Get in
                 Touch
               </a>
             </div>
@@ -120,29 +115,39 @@
     </div>
   </div>
 
-  <!--Services section-->
+  <!-- Section Services -->
 
-  <div id="services" class="uk-section uk-section-medium">
+  <div id="section-services" class="uk-section uk-section-large">
     <div class="uk-container">
       <div class="uk-margin-large">
         <h2 class="uk-text-center uk-heading-small"
           data-uk-scrollspy="cls: uk-animation-slide-top-small; repeat: true; delay: 100">Our Services</h2>
-        <!-- <p class="uk-text-center uk-text-large uk-margin-large uk-letter-spacing-small"
-          data-uk-scrollspy="cls: uk-animation-slide-top-small; repeat: true; delay: 100" style="font-weight: lighter;">
-          Transform your brand with us at Jemsa Media Tech Digital. From strategic branding to cutting-edge software
-          development, we craft immersive experiences through audiovisual production, driving your digital presence to
-          new heights.
-        <p> -->
       </div>
 
-      <div class="uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-match uk-margin-large-top"
+      <div class="uk-child-width-1-3@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-match uk-margin-large-top"
         data-uk-grid>
         <div class="uk-text-left ">
           <div class="uk-padding">
             <img class=" uk-margin-medium uk-icon-large" src="./images/digital-marketing.png" alt="Icon" data-uk-svg
               style="height: 70px;">
-            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Digital Marketing & Advertising
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Digital Marketing
             </h3>
+
+            <p>Our digital marketing services include, social media marketing, SEO, influencer marketing, advertising
+              campaigns.</p>
+            <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
+              <a class="hvr-forward" href="services/social_media_marketing.html">Learn More
+                <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
+              </a>
+            </h5>
+          </div>
+        </div>
+
+        <div class="uk-text-left ">
+          <div class="uk-padding">
+            <img class=" uk-margin-medium uk-icon-large" src="./images/digital-marketing.png" alt="Icon" data-uk-svg
+              style="height: 70px;">
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Media Production</h3>
 
             <p>Our digital marketing services include, social media marketing, SEO, influencer marketing, advertising
               campaigns.</p>
@@ -156,9 +161,27 @@
 
         <div class="uk-text-left">
           <div class="uk-padding">
+            <img class=" uk-margin-medium uk-icon-large" src="./images/print-product.png" alt="Icon" data-uk-svg
+              style="height: 70px;">
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Design, Printing & Branding
+            </h3>
+
+            <p>We help businesses build a strong visual and consistent identity with our printing and branding services.
+            </p>
+            <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
+              <a class="hvr-forward" href="services/printing_branding.html">Learn More
+                <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
+              </a>
+            </h5>
+          </div>
+        </div>
+
+        <div class="uk-text-left">
+          <div class="uk-padding">
             <img class=" uk-margin-medium uk-icon-large" src="./images/webdev.png" alt="Icon" data-uk-svg
               style="height: 70px;">
-            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Software Development</h3>
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Webb, App & Software
+              Development</h3>
 
             <p>We build excellent websites with a positive user experience, effective communication, and overall
               functionality.</p>
@@ -174,7 +197,8 @@
           <div class="uk-padding">
             <img class=" uk-margin-medium uk-icon-large" src="./images/viso.png" alt="Icon" data-uk-svg
               style="height: 70px;">
-            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Audio-Visual Production</h3>
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Search Engine Optimization
+              (SEO)</h3>
 
             <p>We seamlessly blend audio and visual elements to ensure your story is impactful across various platforms.
             </p>
@@ -188,14 +212,62 @@
 
         <div class="uk-text-left">
           <div class="uk-padding">
-            <img class=" uk-margin-medium uk-icon-large" src="./images/print-product.png" alt="Icon" data-uk-svg
+            <img class=" uk-margin-medium uk-icon-large" src="./images/viso.png" alt="Icon" data-uk-svg
               style="height: 70px;">
-            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Printing & Branding</h3>
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Digital Strategies</h3>
 
-            <p>We help businesses build a strong visual and consistent identity with our printing and branding services.
+            <p>We seamlessly blend audio and visual elements to ensure your story is impactful across various platforms.
             </p>
             <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-              <a class="hvr-forward" href="services/printing_branding.html">Learn More
+              <a class="hvr-forward" href="services/audio_visual.html">Learn More
+                <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
+              </a>
+            </h5>
+          </div>
+        </div>
+
+        <div class="uk-text-left">
+          <div class="uk-padding">
+            <img class=" uk-margin-medium uk-icon-large" src="./images/viso.png" alt="Icon" data-uk-svg
+              style="height: 70px;">
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Paid Advertising</h3>
+
+            <p>We seamlessly blend audio and visual elements to ensure your story is impactful across various platforms.
+            </p>
+            <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
+              <a class="hvr-forward" href="services/audio_visual.html">Learn More
+                <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
+              </a>
+            </h5>
+          </div>
+        </div>
+
+        <div class="uk-text-left">
+          <div class="uk-padding">
+            <img class=" uk-margin-medium uk-icon-large" src="./images/viso.png" alt="Icon" data-uk-svg
+              style="height: 70px;">
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Communications & PR</h3>
+
+            <p>We seamlessly blend audio and visual elements to ensure your story is impactful across various platforms.
+            </p>
+            <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
+              <a class="hvr-forward" href="services/audio_visual.html">Learn More
+                <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
+              </a>
+            </h5>
+          </div>
+        </div>
+
+        <div class="uk-text-left">
+          <div class="uk-padding">
+            <img class=" uk-margin-medium uk-icon-large" src="./images/viso.png" alt="Icon" data-uk-svg
+              style="height: 70px;">
+            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">Media Buying</h3>
+
+            <p>We seamlessly blend audio and visual elements to ensure your story is impactful across various platforms.
+            </p>
+            <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
+              <a class="hvr-forward" href="services/audio_visual.html">Learn More
                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
               </a>
             </h5>
@@ -206,9 +278,9 @@
     </div>
   </div>
 
-  <!--Projects/Portfolio section-->
+  <!-- Section Projects -->
 
-  <div id="projects" class="uk-section uk-section-large">
+  <div id="section-projects" class="uk-section uk-section-large">
     <div class="uk-container">
       <div class="uk-visible-toggle uk-box-shadow-xlarge" tabindex="-1"
         data-uk-slider="autoplay: true; autoplay-interval: 4000;">
@@ -219,8 +291,8 @@
               <li>
                 <div class="uk-grid-collapse" data-uk-grid>
                   <div class="uk-width-1-2@s">
-                    <img src="./images/38.jpg"
-                      alt="Slide" style="height: 600px;">
+                    <img src="./images/densmile/463259578_1283475192683336_2446229085720325516_n (1).jpg" alt="Slide"
+                      style="height: 640px;">
                   </div>
                   <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
                     <div class="uk-padding-large">
@@ -245,23 +317,23 @@
               <li>
                 <div class="uk-grid-collapse" data-uk-grid>
                   <div class="uk-width-1-2@s">
-                    <img src="./images/38.jpg" alt="Slide" style="height: 600px;">
+                    <img src="./images/white_crescent/463820856_901624421934215_7849647349893020376_n.webp" alt="Slide"
+                      style="height: 640px;">
                   </div>
                   <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
                     <div class="uk-padding-large">
                       <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Featured Project</h3>
                       <h2 class="uk-heading-small uk-margin-medium-top">The White Crescent Hospital</h2>
                       <div>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore.
+                        White Crescent Hospital partnered with JemsaMediaTech Digital to enhance its digital
+                        presence and patient engagement. By redefining brand messaging and leveraging targeted ads,
+                        the hospital achieved a 20% increase in online bookings, improved social media interaction,
+                        higher patient satisfaction, and expanded visibility in Ongata Rongai and Nairobi.
                       </div>
                       <hr class="uk-margin-medium-top uk-separator-small">
                       <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
-                        <a class="hvr-forward" href="projects/whitecrescent.html">Project Details<span class="uk-margin-left"
-                            data-uk-icon="arrow-right"></span></a>
+                        <a class="hvr-forward" href="projects/whitecrescent.html">Project Details<span
+                            class="uk-margin-left" data-uk-icon="arrow-right"></span></a>
                       </h3>
                     </div>
                   </div>
@@ -271,7 +343,7 @@
               <li>
                 <div class="uk-grid-collapse" data-uk-grid>
                   <div class="uk-width-1-2@s">
-                    <img src="./images/38.jpg" alt="Slide" style="height: 600px;">
+                    <img src="./images/moonlight/Moonlight 2025 (2).png" alt="Slide" style="height: 640px;">
                   </div>
                   <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
                     <div class="uk-padding-large">
@@ -279,11 +351,11 @@
                       <h2 class="uk-heading-small uk-margin-medium-top">Prestige Moonlight Traders Limited
                       </h2>
                       <div>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore.
+                        Moonlight Traders Ltd partnered with JemsaMediaTech Digital to revamp its digital
+                        presence through a tailored social media strategy.
+                        Within three months, the company achieved a 70% growth in followers,
+                        60% higher engagement, a 50% rise in inquiries, and a 40% increase in sales,
+                        solidifying its brand in the automotive industry.
                       </div>
                       <hr class="uk-margin-medium-top uk-separator-small">
                       <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
@@ -298,18 +370,19 @@
               <li>
                 <div class="uk-grid-collapse" data-uk-grid>
                   <div class="uk-width-1-2@s">
-                    <img src="./images/38.jpg" alt="Slide" style="height: 600px;">
+                    <img src="./images/obc/WhatsApp Image 2024-12-04 at 10.00.55_314af6c0.jpg" alt="Slide"
+                      style="height: 640px;">
                   </div>
                   <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
                     <div class="uk-padding-large">
                       <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Featured Project</h3>
                       <h2 class="uk-heading-small uk-margin-medium-top">OBC Mall Kitengela</h2>
                       <div>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore.
+                        The OBC Mall Kitengela partnered with JemsaMediaTech Digital to enhance its digital presence
+                        with a tailored social media strategy. The mall saw a 65% increase in followers,
+                        70% higher engagement, and a 45% rise in foot traffic.
+                        Tenant businesses benefited from increased visibility, leading to more customer inquiries and
+                        sales.
                       </div>
                       <hr class="uk-margin-medium-top uk-separator-small">
                       <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
@@ -324,18 +397,20 @@
               <li>
                 <div class="uk-grid-collapse" data-uk-grid>
                   <div class="uk-width-1-2@s">
-                    <img src="./images/38.jpg" alt="Slide" style="height: 600px;">
+                    <img src="./images/blitz/468348994_937959108223512_2625536165663091943_n.webp" alt="Slide"
+                      style="height: 640px;">
                   </div>
                   <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
                     <div class="uk-padding-large">
                       <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Featured Project</h3>
                       <h2 class="uk-heading-small uk-margin-medium-top">Blitz Vision Limited</h2>
                       <div>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore.
+                        Blitz Vision, a new player in the digital out-of-home (DOOH) advertising sector partnered
+                        with JemsaMediaTech in building a strong online foundation. We designed a user-friendly,
+                        SEO-optimized website and implemented a comprehensive social media strategy.
+                        This included consistent branding, engaging content, and targeted advertising campaigns,
+                        effectively enhancing brand visibility, attracting clients, and positioning Blitz Vision
+                        competitively in the market.
                       </div>
                       <hr class="uk-margin-medium-top uk-separator-small">
                       <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
@@ -367,201 +442,9 @@
     </div>
   </div>
 
-  <!--Team section-->
+  <!-- Section Clients -->
 
-  <div id="team" class="uk-section uk-section-primary uk-section-medium">
-    <div class="uk-container">
-
-      <h2 class="uk-heading-small">Our Team</h2>
-
-      <div class="uk-visible-toggle" tabindex="-1" data-uk-slider="autoplay: true; autoplay-interval: 4000;">
-        <div class="uk-position-relative">
-          <div class="uk-slider-container">
-            <div
-              class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-margin-large-top uk-grid-match uk-slider-items"
-              data-uk-grid>
-
-              <!--Slider Items-->
-              <div>
-                <div class="uk-card uk-card-small uk-border-medium">
-                  <div class="uk-inline">
-                    <div class="uk-card-media-top">
-                      <img src="./images/profile.jpg" alt="Tow Sawyer">
-                    </div>
-                    <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Japhet Musyoka</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Founder/CEO</p>
-                      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
-                        <div>
-                          <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: instagram; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: twitter; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="uk-card uk-card-small uk-border-medium">
-                  <div class="uk-inline">
-                    <div class="uk-card-media-top">
-                      <img src="./images/profile.jpg" alt="Tow Sawyer">
-                    </div>
-                    <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Kir</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Creative Director</p>
-                      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
-                        <div>
-                          <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: instagram; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: twitter; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="uk-card uk-card-small uk-border-medium">
-                  <div class="uk-inline">
-                    <div class="uk-card-media-top">
-                      <img src="./images/profile.jpg" alt="Tow Sawyer">
-                    </div>
-                    <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Alex Tomson</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Art Director</p>
-                      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
-                        <div>
-                          <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: instagram; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: twitter; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="uk-card uk-card-small uk-border-medium">
-                  <div class="uk-inline">
-                    <div class="uk-card-media-top">
-                      <img src="./images/profile.jpg" alt="Tow Sawyer">
-                    </div>
-                    <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Alex Tomson</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Digital Marketing Executive</p>
-                      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
-                        <div>
-                          <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: instagram; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: twitter; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="uk-card uk-card-small uk-border-medium">
-                  <div class="uk-inline">
-                    <div class="uk-card-media-top">
-                      <img src="./images/profile.jpg" alt="Tow Sawyer">
-                    </div>
-                    <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Felix</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Chief Technology Officer</p>
-                      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
-                        <div>
-                          <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: instagram; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: twitter; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="uk-card uk-card-small uk-border-medium">
-                  <div class="uk-inline">
-                    <div class="uk-card-media-top">
-                      <img src="./images/profile.jpg" alt="Tow Sawyer">
-                    </div>
-                    <div class="uk-card-body uk-overlay uk-overlay-dark uk-position-bottom">
-                      <h3 class="uk-card-title uk-margin-remove">Bill</h3>
-                      <p class="uk-text-small uk-margin-xsmall">Graphics Designer</p>
-                      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-margin-top">
-                        <div>
-                          <a href="#" data-uk-icon="icon: facebook; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: instagram; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                        <div>
-                          <a href="#" data-uk-icon="icon: twitter; ratio: .8" class="uk-icon-link uk-icon"
-                            target="_blank"></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--End slider Items-->
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Clients section-->
-
-  <div id="clients" class="uk-section uk-section-large">
+  <div id="section-clients" class="uk-section uk-section-large">
     <div class="uk-container">
 
       <h2 class="uk-heading-small uk-margin-medium">Our Clients</h2>
@@ -624,9 +507,9 @@
     </div>
   </div>
 
-  <!--Contact Section-->
+  <!-- Section Contact -->
 
-  <div id="contact" class="uk-section uk-section-large">
+  <div id="section-contact" class="uk-section uk-section-large">
     <div class="uk-container">
       <div class="uk-child-width-1-2@s" data-uk-grid>
         <div>
@@ -676,7 +559,7 @@
     </div>
   </div>
 
-  <!--Footer-->
+  <!-- Footer -->
 
   <footer class="uk-section uk-section-primary uk-border-large-top">
     <div class="uk-container">
@@ -685,16 +568,16 @@
           <div class="uk-child-width-expand@s" data-uk-grid
             data-uk-scrollspy-nav="closest: div; scroll: true; offset: 100">
             <div>
-              <h5 class="uk-text-uppercase uk-letter-spacing-small"><a href="#projects">Home</a></h5>
+              <h5 class="uk-text-uppercase uk-letter-spacing-small"><a href="#section-projects">Home</a></h5>
             </div>
             <div>
-              <h5 class="uk-text-uppercase uk-letter-spacing-small"><a href="#clients">About Us</a></h5>
+              <h5 class="uk-text-uppercase uk-letter-spacing-small"><a href="#section-clients">About Us</a></h5>
             </div>
             <div>
-              <h5 class="uk-text-uppercase uk-letter-spacing-small"><a href="#services">Services</a></h5>
+              <h5 class="uk-text-uppercase uk-letter-spacing-small"><a href="#section-services">Services</a></h5>
             </div>
             <div>
-              <h5 class="uk-text-uppercase uk-letter-spacing-small"><a href="#contact">Contact</a></h5>
+              <h5 class="uk-text-uppercase uk-letter-spacing-small"><a href="#section-contact">Contact</a></h5>
             </div>
           </div>
         </div>
@@ -727,7 +610,7 @@
     </div>
   </footer>
 
-  <!--Burger Menu-->
+  <!--Mobile menu-->
 
   <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
     <div class="uk-offcanvas-bar">
@@ -738,7 +621,7 @@
       <ul class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-medium-top uk-text-left"
         data-uk-scrollspy-nav="closest: li; scroll: true; offset: 80" uk-nav>
         <li><a href="#header">Home</a></li>
-        <li ><a href="#about">About</a></li>
+        <li><a href="#section-about">About</a></li>
 
         <li class="uk-parent uk-nav-parent-icon">
           <a href="#">Services <span uk-icon="chevron-down"></span></a>
@@ -758,9 +641,8 @@
           </ul>
         </li>
 
-
         <li><a href="./projects/index.html">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#section-contact">Contact</a></li>
       </ul>
       <div class="uk-margin-medium-top uk-text-center">
         <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">
@@ -778,7 +660,6 @@
       </div>
     </div>
   </div>
-
 </body>
 
 </html>
