@@ -1671,6 +1671,10 @@ select.uk-form-width-xsmall {
     max-width: 1600px
 }
 
+.uk-container-xlarge {
+    max-width: 1600px;
+  }
+
 .uk-container-expand {
     max-width: none
 }
