@@ -1,5 +1,2 @@
 .vscode/
-node_modules/
-src/
-config.codekit3
-prepros.config
+vendor
