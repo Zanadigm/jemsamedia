@@ -13,18 +13,18 @@
         <li class="uk-parent uk-nav-parent-icon">
             <a href="#">Services <span uk-icon="chevron-down"></span></a>
             <ul class="uk-nav-sub">
-                <li><a href="services/digital_marketing.php">Digital Marketing</a></li>
-                <li><a href="services/media_production.php">Media Production</a></li>
-                <li><a href="services/printing_branding.php">Design, Printing & Branding</a></li>
-                <li><a href="services/software_dev.php">Software Development</a></li>
-                <li><a href="services/seo.php">SEO</a></li>
-                <li><a href="services/digital_strategies.php">Digital Strategies</a></li>
-                <li><a href="services/paid_ads.php">Paid Advertisement</a></li>
-                <li><a href="services/communications.php">Communications & PR</a></li>
-                <li><a href="services/media_buying.php">Media Buying</a></li>
+                <li><a href="pages/digital_marketing.php">Digital Marketing</a></li>
+                <li><a href="pages/media_production.php">Media Production</a></li>
+                <li><a href="pages/printing_branding.php">Design, Printing & Branding</a></li>
+                <li><a href="pages/software_dev.php">Software Development</a></li>
+                <li><a href="pages/seo.php">SEO</a></li>
+                <li><a href="pages/digital_strategies.php">Digital Strategies</a></li>
+                <li><a href="pages/paid_ads.php">Paid Advertisement</a></li>
+                <li><a href="pages/communications.php">Communications & PR</a></li>
+                <li><a href="pages/media_buying.php">Media Buying</a></li>
             </ul>
         </li>
-        <li><a href="./projects/index.php">Portfolio</a></li>
+        <li><a href="./pages/index.php">Portfolio</a></li>
         <li><a href="#section-contact">Contact</a></li>
     </ul>
 

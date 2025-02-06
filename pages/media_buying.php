@@ -128,17 +128,17 @@
             
         </div>
     </div>
+    
+    <!--Contact-->
+    <div id="section-contact" class="uk-section uk-section-large">
+        <?php include_once("templates/contact.php")?>
+    </div>
 
     <!--Whatsapp-floating-icon-->
 
     <a href="https://wa.me/254740953042" target="_blank" class="whatsapp-button uk-animation-slide-bottom-small">
         <span uk-icon="whatsapp"></span> WhatsApp Us
     </a>
-    
-    <!--Contact-->
-    <div id="section-contact" class="uk-section uk-section-large">
-        <?php include_once("templates/contact.php")?>
-    </div>
 
     <!--Footer-->
     <footer class="uk-section uk-section-primary uk-border-large-top">
