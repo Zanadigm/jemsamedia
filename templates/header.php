@@ -23,7 +23,7 @@
                                 <li><a href="pages/digital_marketing.php">Digital Marketing</a></li>
                                 <li><a href="pages/media_production.php">Media Production</a></li>
                                 <li><a href="pages/printing_branding.php">Design, Printing & Branding</a></li>
-                                <li><a href="pages/software_dev.php">Software Development</a></li>
+                                <li><a href="pages/software_dev.php">Web, App & Software Development</a></li>
                                 <li><a href="pages/seo.php">Search Engine Optimization</a></li>
                                 <li><a href="pages/digital_strategies.php">Digital Strategies</a></li>
                                 <li><a href="pages/paid_ads.php">Paid Advertisement</a></li>

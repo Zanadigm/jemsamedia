@@ -89,7 +89,7 @@
                         <p>We provide cutting-edge digital marketing solutions designed to amplify your brand’s online presence and drive real results. Our services include...</p>
 
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/social_media_marketing.php">Learn More
+                            <a class="hvr-forward" href="pages/digital_marketing.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -105,7 +105,7 @@
 
                         <p>Our media production services bring your brand to life with high-quality visuals that captivate and engage your audience...</p>
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/social_media_marketing.php">Learn More
+                            <a class="hvr-forward" href="pages/media_production.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -121,7 +121,7 @@
 
                         <p>We offer top-tier design, printing, and branding services tailored to elevate your business presence. Our creative team specializes in...</p>
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/printing_branding.php">Learn More
+                            <a class="hvr-forward" href="pages/printing_branding.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -137,7 +137,7 @@
 
                         <p>We design and develop custom web applications and software solutions that enhance user experience and drive business growth...</p>
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/software_dev.php">Learn More
+                            <a class="hvr-forward" href="pages/software_dev.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -153,7 +153,7 @@
 
                         <p>Boost your online visibility and attract more organic traffic with our expert SEO services. We optimize your website with strategic keywords...</p>
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/audio_visual.php">Learn More
+                            <a class="hvr-forward" href="pages/seo.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -168,7 +168,7 @@
 
                         <p>We focus on creating customized plans that help businesses leverage digital channels and technologies to achieve their objectives. Our agency works closely with...</p>
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/audio_visual.php">Learn More
+                            <a class="hvr-forward" href="pages/digital_strategies.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -183,7 +183,7 @@
 
                         <p>Maximize your reach and drive instant results with our targeted paid advertising campaigns. We create and manage ads across platforms like...</p>
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/audio_visual.php">Learn More
+                            <a class="hvr-forward" href="pages/paid_ads.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -198,7 +198,7 @@
 
                         <p>Build a strong brand reputation with our expert communication and public relations services. We craft compelling messages, manage media relations...</p>
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/audio_visual.php">Learn More
+                            <a class="hvr-forward" href="pages/communications.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -213,7 +213,7 @@
 
                         <p>We plan, negotiate, and purchase ad placements across digital, print, TV, radio, and outdoor platforms to ensure your brand reaches..</p>
                         <h5 class="uk-margin-remove uk-h5 uk-letter-spacing-small">
-                            <a class="hvr-forward" href="services/audio_visual.php">Learn More
+                            <a class="hvr-forward" href="pages/media_buying.php">Learn More
                                 <span class="uk-margin-left" data-uk-icon="arrow-right"></span>
                             </a>
                         </h5>
@@ -252,7 +252,7 @@
                                             </div>
                                             <hr class="uk-margin-medium-top uk-separator-small">
                                             <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
-                                                <a class="hvr-forward" href="projects/densmile.php">Project Details<span class="uk-margin-left"
+                                                <a class="hvr-forward" href="pages/densmile.php">Project Details<span class="uk-margin-left"
                                                         data-uk-icon="arrow-right"></span></a>
                                             </h3>
                                         </div>
@@ -278,7 +278,7 @@
                                             </div>
                                             <hr class="uk-margin-medium-top uk-separator-small">
                                             <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
-                                                <a class="hvr-forward" href="projects/whitecrescent.php">Project Details<span
+                                                <a class="hvr-forward" href="pages/whitecrescent.php">Project Details<span
                                                         class="uk-margin-left" data-uk-icon="arrow-right"></span></a>
                                             </h3>
                                         </div>
@@ -306,7 +306,7 @@
                                             </div>
                                             <hr class="uk-margin-medium-top uk-separator-small">
                                             <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
-                                                <a class="hvr-forward" href="projects/prestige.php">Project Details<span class="uk-margin-left"
+                                                <a class="hvr-forward" href="pages/prestige.php">Project Details<span class="uk-margin-left"
                                                         data-uk-icon="arrow-right"></span></a>
                                             </h3>
                                         </div>
@@ -333,7 +333,7 @@
                                             </div>
                                             <hr class="uk-margin-medium-top uk-separator-small">
                                             <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
-                                                <a class="hvr-forward" href="projects/obc.php">Project Details<span class="uk-margin-left"
+                                                <a class="hvr-forward" href="pages/obc.php">Project Details<span class="uk-margin-left"
                                                         data-uk-icon="arrow-right"></span></a>
                                             </h3>
                                         </div>
@@ -361,7 +361,7 @@
                                             </div>
                                             <hr class="uk-margin-medium-top uk-separator-small">
                                             <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
-                                                <a class="hvr-forward" href="projects/blitz.php">Project Details<span class="uk-margin-left"
+                                                <a class="hvr-forward" href="pages/blitz.php">Project Details<span class="uk-margin-left"
                                                         data-uk-icon="arrow-right"></span></a>
                                             </h3>
                                         </div>
