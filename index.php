@@ -34,9 +34,8 @@
                         <hr class="uk-margin-auto-top uk-separator-small">
                         <div class="uk-margin-auto-bottom">
                             <p>
-                                Welcome to JemsaMediaTech, a leading digital marketing agency in Kenya. We specialize in SEO services, social media marketing, PPC advertising, web , app ans software development, and content marketing to help businesses in Kenya grow online.
-                                Based in Nairobi, we create customized digital strategies that drive real results. Whether you're looking to improve SEO rankings, boost online visibility, or engage customers through Google Ads and social media, we’ve got the expertise to deliver.
-                                At JemsaMediaTech, we focus on affordable digital marketing that produces measurable outcomes. Let’s work together to take your business to new heights with our proven online marketing solutions.
+                                JemsaMediaTech - Leading marketing agency in Kenya is a bold, innovative digital agency redefining how brands connect and grow. 
+                                We deliver cutting-edge solutions in Social Media Management, Digital Production, Web & Software Development, SEO, Media Buying, Design & Branding, and PR Communication.
                             </p>
                             <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Our Mission</h3>
                             <p>
