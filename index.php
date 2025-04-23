@@ -235,7 +235,7 @@
 
                             <li>
                                 <div class="uk-grid-collapse" data-uk-grid>
-                                    <div class="uk-width-1-2@s">
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
                                         <img src="images/densmile/463259578_1283475192683336_2446229085720325516_n (1).jpg" alt="Slide"
                                             style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
                                     </div>
@@ -261,7 +261,7 @@
 
                             <li>
                                 <div class="uk-grid-collapse" data-uk-grid>
-                                    <div class="uk-width-1-2@s">
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
                                         <img src="images/white_crescent/462381141_1062243051779519_8384778534719405517_n.webp" alt="Slide"
                                             style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
                                     </div>
@@ -287,7 +287,7 @@
 
                             <li>
                                 <div class="uk-grid-collapse" data-uk-grid>
-                                    <div class="uk-width-1-2@s">
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
                                         <img src="images/moonlight/Moonlight 2025 (2).png" alt="Slide"
                                             style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
                                     </div>
@@ -315,7 +315,7 @@
 
                             <li>
                                 <div class="uk-grid-collapse" data-uk-grid>
-                                    <div class="uk-width-1-2@s">
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
                                         <img src="images/obc/WhatsApp Image 2024-12-04 at 10.00.55_314af6c0.jpg" alt="Slide"
                                             style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
                                     </div>
@@ -342,7 +342,7 @@
 
                             <li>
                                 <div class="uk-grid-collapse" data-uk-grid>
-                                    <div class="uk-width-1-2@s">
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
                                         <img src="images/blitz/468348994_937959108223512_2625536165663091943_n.webp" alt="Slide"
                                             style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
                                     </div>
@@ -361,6 +361,33 @@
                                             <hr class="uk-margin-medium-top uk-separator-small">
                                             <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
                                                 <a class="hvr-forward" href="pages/blitz.php">Project Details<span class="uk-margin-left"
+                                                        data-uk-icon="arrow-right"></span></a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="uk-grid-collapse" data-uk-grid>
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
+                                        <img src="images/billboard/20250219_180640.jpg" alt="Slide"
+                                            style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
+                                    </div>
+                                    <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
+                                        <div class="uk-padding-large">
+                                            <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Featured Project</h3>
+                                            <h2 class="uk-heading-small uk-margin-medium-top">Billboard Project</h2>
+                                            <div>
+                                                Our billboard campaign for The White Crescent Hospital was designed to boost local 
+                                                visibility and build trust within the community. We created and placed eye-catching billboards in high-traffic areas, 
+                                                that highlighted the hospital’s key services and strengths. 
+                                                These billboards raised awareness and increasing patient inquiries, 
+                                                and reinforcing the hospital’s reputation.
+                                            </div>
+                                            <hr class="uk-margin-medium-top uk-separator-small">
+                                            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
+                                                <a class="hvr-forward" href="pages/billboard.php">Project Details<span class="uk-margin-left"
                                                         data-uk-icon="arrow-right"></span></a>
                                             </h3>
                                         </div>
