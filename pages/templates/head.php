@@ -4,7 +4,6 @@
 <link rel="shortcut icon" type="image/png" href="https://placehold.co/20x20">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/main.css" />
-<link rel="stylesheet" href="../css/custom.css" />
 <script src="../js/uikit.js"></script>
 <style>
     .whatsapp-button {
