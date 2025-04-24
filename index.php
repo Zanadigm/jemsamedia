@@ -6,20 +6,36 @@
 </head>
 
 <!-- Modal Trigger Script -->
+
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        UIkit.modal('#video-popup').show();
+    let popupTriggered = false;
+
+    window.addEventListener('scroll', function () {
+        const scrollTriggerPoint = 400;
+
+        if (!popupTriggered && window.scrollY > scrollTriggerPoint) {
+            
+            if (!sessionStorage.getItem('videoPopupShown')) {
+                popupTriggered = true;
+
+                setTimeout(() => {
+                    UIkit.modal('#video-popup').show();
+
+                    document.documentElement.style.overflow = 'auto';
+                    document.body.style.overflow = 'auto';
+
+                    sessionStorage.setItem('videoPopupShown', 'true');
+                }, 2000);
+            }
+        }
     });
+
 </script>
 
 <!-- UIKit Modal -->
+
 <div id="video-popup" class="uk-flex-top" uk-modal>
-    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical uk-background-secondary uk-light">
-        <button class="uk-modal-close-outside" type="button" uk-close></button>
-        <video autoplay loop muted playsinline class="uk-border-rounded">
-            <source src="images/popup.mp4" type="video/mp4">
-        </video>
-    </div>
+    <?php include_once("templates/popup.php") ?>
 </div>
 
 <body> 
