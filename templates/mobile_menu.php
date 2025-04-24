@@ -24,7 +24,7 @@
                 <li><a href="pages/media_buying.php">Media Buying</a></li>
             </ul>
         </li>
-        <li><a href="./pages/index.php">Portfolio</a></li>
+        <li><a href="./pages/portfolio.php">Portfolio</a></li>
         <li><a href="#section-contact">Contact</a></li>
     </ul>
 
@@ -34,10 +34,10 @@
                 <a href="https://twitter.com/" data-uk-icon="icon: twitter" class="uk-icon-link" target="_blank"></a>
             </div>
             <div>
-                <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" class="uk-icon-link" target="_blank"></a>
+                <a href="https://web.facebook.com/profile.php?id=61557033917749" data-uk-icon="icon: facebook" class="uk-icon-link" target="_blank"></a>
             </div>
             <div>
-                <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" class="uk-icon-link" target="_blank"></a>
+                <a href="https://www.instagram.com/jemsamediatech/" data-uk-icon="icon: instagram" class="uk-icon-link" target="_blank"></a>
             </div>
         </div>
     </div>

@@ -5,8 +5,24 @@
     <?php include_once("templates/head.php") ?>
 </head>
 
-<body>
+<!-- Modal Trigger Script -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        UIkit.modal('#video-popup').show();
+    });
+</script>
 
+<!-- UIKit Modal -->
+<div id="video-popup" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical uk-background-secondary uk-light">
+        <button class="uk-modal-close-outside" type="button" uk-close></button>
+        <video autoplay loop muted playsinline class="uk-border-rounded">
+            <source src="images/popup.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<body> 
     <!--Header Section-->
 
     <header id="">

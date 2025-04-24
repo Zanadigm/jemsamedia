@@ -6,7 +6,20 @@
 <link rel="stylesheet" href="css/main.css" />
 <link rel="stylesheet" href="css/custom.css" />
 <script src="js/uikit.js"></script>
+<script src="js/uikit-core.js"></script>
 <style>
+
+    #video-popup video {
+        max-width: 90vw;
+        max-height: 80vh;
+        display: block;
+    }
+
+    #video-popup .uk-modal-dialog {
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
     .whatsapp-button {
         position: fixed;
         bottom: 20px;
