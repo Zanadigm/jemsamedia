@@ -47,7 +47,7 @@
                                         <h4 class="uk-margin-remove" style="color: #ffffff;">Billboard Project</h4>
                                     </div>
                                     <div class="uk-transition-slide-bottom-small uk-button-text">
-                                        <a href="densmile.php" class="uk-button uk-button-large uk-button-default">Read More</a>
+                                        <a href="billboard.php" class="uk-button uk-button-large uk-button-default">Read More</a>
                                     </div>
                                 </div>
                             </div>
