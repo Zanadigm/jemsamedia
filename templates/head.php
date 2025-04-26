@@ -19,6 +19,22 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     }
 
+    .click-overlay {
+        position: absolute;
+        bottom: 8%; /* Adjust this based on where your "Click Here" appears */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 284px; /* Adjust width */
+        height: 64px; /* Adjust height */
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    /* For debugging position — remove after */
+    /* .click-overlay:hover {
+        outline: 2px dashed rgba(255, 255, 255, 0.5);
+    } */
+
     .whatsapp-button {
         position: fixed;
         bottom: 20px;
