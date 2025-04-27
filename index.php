@@ -13,7 +13,7 @@
           "sameAs": [
             "https://www.facebook.com/share/1E65yEBLHT/",
             "https://www.facebook.com/share/1E65yEBLHT/",
-          ],
+          ]
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+254740953042",
