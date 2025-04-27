@@ -11,6 +11,26 @@
 
     <header id="header">
         <?php include_once("templates/header.php")?>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Digital Strategies Consulting",
+              "description": "Strategic digital consulting services to help businesses succeed online with tailored digital roadmaps.",
+              "brand": {
+                "@type": "Organization",
+                "name": "Jemsa Media Tech"
+              },
+              "url": "https://jemsamediatech.africa/pages/digital_strategies.php",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+254740953042",
+                "contactType": "Customer Service",
+                "areaServed": "Africa",
+                "availableLanguage": "English"
+              }
+            }
+</script>
     </header>
 
     <!--Hero-->

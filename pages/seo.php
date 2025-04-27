@@ -11,6 +11,26 @@
 
     <header id="header">
         <?php include_once("templates/header.php") ?>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Search Engine Optimization (SEO) Services",
+              "description": "SEO services to improve your website's visibility, rankings, and organic traffic on major search engines.",
+              "brand": {
+                "@type": "Organization",
+                "name": "Jemsa Media Tech"
+              },
+              "url": "https://jemsamediatech.africa/pages/seo.php",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+254740953042",
+                "contactType": "Customer Service",
+                "areaServed": "Africa",
+                "availableLanguage": "English"
+              }
+            }
+        </script>
     </header>
 
     <!-- Hero Section -->

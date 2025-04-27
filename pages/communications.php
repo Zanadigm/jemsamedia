@@ -11,6 +11,26 @@
 
     <header id="header">
         <?php include_once("templates/header.php")?>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Communications & Public Relations Services",
+              "description": "Strategic communications and PR services to enhance your brand reputation and media presence.",
+              "brand": {
+                "@type": "Organization",
+                "name": "Jemsa Media Tech"
+              },
+              "url": "https://jemsamediatech.africa/pages/communications.php",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+254740953042",
+                "contactType": "Customer Service",
+                "areaServed": "Africa",
+                "availableLanguage": "English"
+              }
+            }
+</script>
     </header>
 
     <!--Hero-->
