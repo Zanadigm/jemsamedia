@@ -3,6 +3,26 @@
 
 <head>
     <?php include_once("templates/head.php")?>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Design, Printing & Branding Services",
+          "description": "Creative design, high-quality printing, and strategic branding services tailored to your business needs.",
+          "brand": {
+            "@type": "Organization",
+            "name": "Jemsa Media Tech"
+          },
+          "url": "https://jemsamediatech.africa/pages/printing_branding.php",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+254740953042",
+            "contactType": "Customer Service",
+            "areaServed": "Africa",
+            "availableLanguage": "English"
+          }
+        }
+</script>
 </head>
 
 <body>

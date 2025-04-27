@@ -11,6 +11,26 @@
 
     <header id="header">
         <?php include_once("templates/header.php")?>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Web, App & Software Development",
+              "description": "Custom website, mobile app, and software development services to power your digital transformation.",
+              "brand": {
+                "@type": "Organization",
+                "name": "Jemsa Media Tech"
+              },
+              "url": "https://jemsamediatech.africa/pages/software_dev.php",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+254740953042",
+                "contactType": "Customer Service",
+                "areaServed": "Africa",
+                "availableLanguage": "English"
+              }
+            }
+</script>
     </header>
 
      <!--Hero-->

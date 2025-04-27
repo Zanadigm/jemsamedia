@@ -3,6 +3,26 @@
 
 <head>
     <?php include_once("templates/head.php")?>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Media Production Services",
+          "description": "Professional media production services including video production, photography, and content creation.",
+          "brand": {
+            "@type": "Organization",
+            "name": "Jemsa Media Tech"
+          },
+          "url": "https://www.jemsamediatech.africa/pages/media_production.php",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+254740953042",
+            "contactType": "Customer Service",
+            "areaServed": "Africa",
+            "availableLanguage": "English"
+          }
+        }
+</script>
 </head>
 
 <body>

@@ -11,6 +11,26 @@
 
     <header id="header">
         <?php include_once("templates/header.php")?>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Paid Advertisement Services",
+              "description": "Effective paid advertising services including Google Ads, Facebook Ads, and targeted online campaigns.",
+              "brand": {
+                "@type": "Organization",
+                "name": "Jemsa Media Tech"
+              },
+              "url": "https://jemsamediatech.africa/pages/paid_ads.php",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+254740953042",
+                "contactType": "Customer Service",
+                "areaServed": "Africa",
+                "availableLanguage": "English"
+              }
+            }
+</script>
     </header>
 
     <!--Hero-->

@@ -3,6 +3,26 @@
 
 <head>
     <?php include_once("templates/head.php")?>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Media Buying Services",
+          "description": "Comprehensive media buying services to secure strategic ad placements across digital and traditional platforms.",
+          "brand": {
+            "@type": "Organization",
+            "name": "Jemsa Media Tech"
+          },
+          "url": "https://jemsamediatech.africa/pages/media_buying.php",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+254740953042",
+            "contactType": "Customer Service",
+            "areaServed": "Africa",
+            "availableLanguage": "English"
+          }
+        }
+    </script>
 </head>
 
 <body>
