@@ -3,6 +3,27 @@
 
 <head>
     <?php include_once("templates/head.php") ?>
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Jemsa Media Tech",
+          "url": "https://jemsamediatech.africa",
+          "logo": "https://jemsamediatech.africa/images/logo.png",
+          "sameAs": [
+            "https://www.facebook.com/share/1E65yEBLHT/",
+            "https://www.facebook.com/share/1E65yEBLHT/",
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+254740953042",
+            "contactType": "Customer Service",
+            "areaServed": "Africa",
+            "availableLanguage": "English"
+          },
+        }
+</script>
+
 </head>
 
 <!-- Modal Trigger Script -->

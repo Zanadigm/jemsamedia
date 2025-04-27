@@ -16,7 +16,7 @@
                     <div>Phone: <a class="uk-link-border-bold" href="tel:+254740953042">+254 740 953 042</a></div>
                     
                     <div class="uk-margin-top">Email: 
-                        <a class="uk-link-border-bold" href="info@jemsamediatech.africa">info@jemsamediatech.africa</a>
+                        <a class="uk-link-border-bold" href="mailto:info@jemsamediatech.africa">info@jemsamediatech.africa</a>
                     </div>
 
                 </div>
