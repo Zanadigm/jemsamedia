@@ -5,24 +5,26 @@
     <?php include_once("templates/head.php") ?>
     <script type="application/ld+json">
         {
-          "@context": "http://schema.org",
+          "@context": "https://schema.org",
           "@type": "Organization",
           "name": "Jemsa Media Tech",
           "url": "https://jemsamediatech.africa",
           "logo": "https://jemsamediatech.africa/images/logo.png",
           "sameAs": [
-            "https://www.facebook.com/share/1E65yEBLHT/",
-            "https://www.facebook.com/share/1E65yEBLHT/",
+            "https://www.facebook.com/share/1E65yEBLHT/"
+            "https://www.instagram.com/jemsamediatech?igsh=NWxibTZpc3NvMzhl"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+254740953042",
+              "contactType": "Customer Service",
+              "areaServed": "Africa",
+              "availableLanguage": "English"
+            }
           ]
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+254740953042",
-            "contactType": "Customer Service",
-            "areaServed": "Africa",
-            "availableLanguage": "English"
-          },
         }
-</script>
+   </script>
 
 </head>
 

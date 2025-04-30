@@ -5,24 +5,26 @@
     <?php include_once("templates/head.php")?>
     <script type="application/ld+json">
         {
-          "@context": "https://schema.org/",
-          "@type": "Product",
-          "name": "Digital Marketing Services",
-          "description": "Comprehensive digital marketing services including social media management, content marketing, and email campaigns.",
-          "brand": {
-            "@type": "Organization",
-            "name": "Jemsa Media Tech"
-          },
-          "url": "https://jemsamediatech.africa/pages/digital_marketing.php",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+254740953042",
-            "contactType": "Customer Service",
-            "areaServed": "Africa",
-            "availableLanguage": "English"
-          }
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Digital Marketing Services",
+            "description": "Comprehensive digital marketing services including social media management, content marketing, and email campaigns.",
+            "brand": {
+              "@type": "Organization",
+              "name": "Jemsa Media Tech"
+            },
+            "url": "https://jemsamediatech.africa/pages/communications.php",
+            "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+254740953042",
+                  "contactType": "Customer Service",
+                  "areaServed": "Africa",
+                  "availableLanguage": "English"
+                }
+            ]
         }
-</script>
+    </script>
 </head>
 
 <body>
