@@ -9,9 +9,10 @@
 <style>
 
     #video-popup video {
-        max-width: 90vw;
-        max-height: 80vh;
+        /* max-width: 90vw;
+        max-height: 80vh; */
         display: block;
+        margin: 0 auto;
     }
 
     #video-popup .uk-modal-dialog {
@@ -19,13 +20,24 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     }
 
-    .click-overlay {
+    /* .click-overlay {
         position: absolute;
-        bottom: 8%; /* Adjust this based on where your "Click Here" appears */
+        bottom: 8%;
         left: 50%;
         transform: translateX(-50%);
-        width: 284px; /* Adjust width */
-        height: 64px; /* Adjust height */
+        width: 284px;
+        height: 64px;
+        cursor: pointer;
+        z-index: 10;
+    } */
+
+    .click-overlay {
+        position: absolute;
+        bottom: 0%;
+        left: 90%;
+        transform: translateX(-50%);
+        width: 284px;
+        height: 180px;
         cursor: pointer;
         z-index: 10;
     }
