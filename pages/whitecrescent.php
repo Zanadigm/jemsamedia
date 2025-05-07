@@ -16,7 +16,7 @@
     <!--Hero-->
 
     <div id="" class="uk-width-1-1" style="position: relative;">
-        <div class="container" style="position: relative; background-image: url('../images/white_crescent/464055284_1073407654050172_8670551134393885637_n.webp'); width: 93%; margin: auto">
+        <div class="container" style="position: relative; background-image: url('../images/white_crescent/banner.jpg'); width: 93%; margin: auto">
             <div class="" style="height: 350px;">
                 <div class="uk-overlay-primary uk-position-cover"></div>
                 <div class="uk-overlay uk-position-center uk-light">
@@ -53,7 +53,7 @@
                             </div>
 
                             <div class="uk-width-1-2@m" data-uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true; delay: 300" style="margin: auto;">
-                                <img src="../images/white_crescent/463820856_901624421934215_7849647349893020376_n.webp" alt="Header">
+                                <img class="uk-box-shadow-large" src="../images/white_crescent/463820856_901624421934215_7849647349893020376_n.webp" alt="Header">
                             </div>
                         </div>
                     </div>

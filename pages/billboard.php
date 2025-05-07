@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                             <div class="uk-width-1-2@m" data-uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true; delay: 300" style="margin: auto;">
-                                <img src="../images/billboard/20250219_180640.jpg" alt="Header">
+                                <img class="uk-box-shadow-large" src="../images/billboard/20250219_180640.jpg" alt="Header">
                             </div>
                         </div>
                     </div>

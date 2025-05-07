@@ -9,5 +9,6 @@ deployment:
     - /bin/cp .gitignore $DEPLOYPATH
     - /bin/cp .composer.json $DEPLOYPATH
     - /bin/cp .composer.lock $DEPLOYPATH
+    - /bin/cp send_mail.php $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp config.php $DEPLOYPATH
+   

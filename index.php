@@ -450,6 +450,33 @@
                                 </div>
                             </li>
 
+                            <li>
+                                <div class="uk-grid-collapse" data-uk-grid>
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
+                                        <img src="images/megaplay/get_ready.jpg" alt="Slide"
+                                            style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
+                                    </div>
+                                    <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
+                                        <div class="uk-padding-large">
+                                            <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Featured Project</h3>
+                                            <h2 class="uk-heading-small uk-margin-medium-top">Mega Play Arcade</h2>
+                                            <div>
+                                            Mega Play Arcade, a premier kids’ gaming area, partnered with JemsaMediaTech to
+                                            successfully launch their brand into the market. The campaign was designed to create
+                                            massive awareness, drive foot traffic to the arcade, and position Mega Play as the
+                                            ultimate destination for family fun. Our comprehensive strategy spanned across digital
+                                            platforms, physical marketing, influencer engagement, and TikTok viral content to ensure maximum impact.
+                                            </div>
+                                            <hr class="uk-margin-medium-top uk-separator-small">
+                                            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
+                                                <a class="hvr-forward" href="pages/megaplay.php">Project Details<span class="uk-margin-left"
+                                                        data-uk-icon="arrow-right"></span></a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
                         </ul>
                     </div>
 
@@ -519,6 +546,12 @@
                             <li>
                                 <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
                                     <img src="images/kcb.png" alt="Logo" data-uk-svg>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="uk-padding uk-flex uk-flex-center uk-flex-middle" style="height: 100%">
+                                    <img src="images/megaplay/logo.jpg" alt="Logo" data-uk-svg>
                                 </div>
                             </li>
                         </ul>

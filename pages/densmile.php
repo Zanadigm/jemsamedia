@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                             <div class="uk-width-1-2@m" data-uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true; delay: 300" style="margin: auto;">
-                                <img src="../images/densmile/463259578_1283475192683336_2446229085720325516_n (1).jpg" alt="Header">
+                                <img class="uk-box-shadow-large" src="../images/densmile/463259578_1283475192683336_2446229085720325516_n (1).jpg" alt="Header">
                             </div>
                         </div>
                     </div>

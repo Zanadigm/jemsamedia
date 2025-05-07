@@ -24,7 +24,7 @@
                 <li><a href="pages/media_buying.php">Media Buying</a></li>
             </ul>
         </li>
-        <li><a href="./pages/portfolio.php">Portfolio</a></li>
+        <li><a href="pages/portfolio.php">Portfolio</a></li>
         <li><a href="#section-contact">Contact</a></li>
     </ul>
 
