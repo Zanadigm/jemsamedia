@@ -29,7 +29,7 @@
 
                 <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Send us a message</h3>
 
-                <form class="uk-grid-small uk-margin-medium-top" data-uk-grid>
+                <form id = "contactForm" class="uk-grid-small uk-margin-medium-top" data-uk-grid>
 
                     <div class="uk-width-1-1">
                         <input class="uk-input uk-form-large" type="text" placeholder="Full Name">
@@ -52,8 +52,10 @@
                     </div>
 
                     <div class="uk-width-1-1">
-                        <button class="uk-button uk-button-large uk-button-primary">Send Message</button>
+                        <button class="uk-button uk-button-large uk-button-primary" type="submit" name="submit">Send Message</button>
                     </div>
+
+                    <div id="formAlert" class="uk-margin-top"></div>
 
                 </form>
 

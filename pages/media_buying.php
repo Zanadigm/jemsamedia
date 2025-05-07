@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="uk-width-1-2@m uk-flex uk-flex-middle" data-uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true; delay: 300" style="margin: auto;">
-                                <img src="../images/hero-dark.svg" alt="Header">
+                                <img class="uk-box-shadow-large" src="../images/hero-dark.svg" alt="Header">
                             </div>
                         </div>
                     </div>

@@ -16,7 +16,7 @@
     <!--Hero-->
 
     <div id="" class="uk-width-1-1" style="position: relative;">
-        <div class="container" style="position: relative; background-image: url('../images/blitz/468348994_937959108223512_2625536165663091943_n.webp'); background-size: cover; background-position: center;width: 93%; margin: auto;">
+        <div class="container" style="position: relative; background-image: url('../images/blitz/banner.jpg'); background-size: cover; background-position: center;width: 93%; margin: auto;">
             <div class="" style="height: 350px;">
                 <div class="uk-overlay-primary uk-position-cover"></div>
                 <div class="uk-overlay uk-position-center uk-light">
@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                             <div class="uk-width-1-2@m" data-uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true; delay: 300" style="margin: auto;">
-                                <img src="../images/blitz/468348994_937959108223512_2625536165663091943_n.webp" alt="Header">
+                                <img class="uk-box-shadow-large" src="../images/blitz/468348994_937959108223512_2625536165663091943_n.webp" alt="Header">
                             </div>
                         </div>
                     </div>
