@@ -40,11 +40,10 @@
                                     <hr class="uk-margin-auto-top uk-separator-small">
                                     <h2 class="uk-heading-small uk-margin-medium-top">Mega Play Arcade</h2>
                                     <p class="uk-text-large uk-width-4-5@m">
-                                        Mega Play Arcade, a premier kids’ gaming area, partnered with JemsaMediaTech to
-                                        successfully launch their brand into the market. The campaign was designed to create
-                                        massive awareness, drive foot traffic to the arcade, and position Mega Play as the
-                                        ultimate destination for family fun. Our comprehensive strategy spanned across digital
-                                        platforms, physical marketing, influencer engagement, and TikTok viral content to ensure maximum impact.
+                                        Mega Play Arcade, a premier kids’ gaming venue, partnered with JemsaMediaTech to launch their brand in a competitive market. 
+                                        With no online presence and limited brand visibility, they needed a strategy to quickly generate awareness, drive foot traffic, 
+                                        and establish trust among families. Our comprehensive campaign combined digital marketing, influencer engagement, 
+                                        TikTok viral content, and physical advertising to position Mega Play as the ultimate family destination and ensure a successful market entry.
                                     </p>
 
                                     <!-- <div class="uk-margin-medium-top">
@@ -70,15 +69,19 @@
             <div class="uk-child-width-1-2@m uk-grid-match" data-uk-grid>
                 <div data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true; delay: 300">
                     <div class="uk-padding-large uk-padding-remove-left uk-padding-remove-vertical uk-flex uk-flex-column">
-                        <h2 class="uk-heading-small uk-margin-medium-top uk-h4">The Challenge</h2>
+                        <h2 class="uk-heading-small uk-margin-medium-top uk-h4">Deliverables</h2>
                         <div>
-                            <p>
-                            Mega Play Arcade needed a full-scale brand launch that would not only introduce them to
-                            the local community but also quickly establish trust and excitement among families. Being
-                            a new player in a competitive entertainment market, they faced the challenge of limited
-                            brand visibility, lack of an online presence, and a tight launch window to generate buzz
-                            before opening day.
-                            </p>
+                            <ul class="uk-list uk-list-bullet">
+                                <li>Digital Strategy Development</li>
+                                <li>Social Media Management (Instagram, Facebook & TikTok)</li>
+                                <li>Paid Advertising (Meta Ads, Google Ads, TikTok Ads)</li>
+                                <li>Content Production (Photoshoots & Reels/TikTok Videos)</li>
+                                <li>Graphic Design (Flyers, Brochures, Billboards)</li>
+                                <li>Motion Graphics Videos</li>
+                                <li>Influencer Marketing Campaigns</li>
+                                <li>Outdoor Advertising (Billboards)</li>
+                                <li>Promotional Materials (Reflector Jackets, Branding Assets)</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -88,11 +91,13 @@
                         <h2 class="uk-heading-small uk-margin-medium-top uk-h4">The Solution</h2>
                         <div>
                             <p>
-                                To tackle these challenges, JemsaMediaTech built vibrant pages on social media, launched targeted ads,
-                                produced high-energy photo shoots and short-form videos. We also designed flyers, brochures, and animated videos.
-                                Our strategy also involved partnering with family influencers and TikTok creators. The Solution was executed in three phases:
-                                Build-Up Phase: Teasers, behind-the-scenes content, TikTok trends. The Launch Phase: Influencer visits, live event coverage, exclusive offers. 
-                                Lastly, the sustain Phase: Post-launch remarketing, TikTok challenges, contests.
+                                To deliver on Mega Play Arcade’s launch objectives, JemsaMediaTech implemented a structured, three-phase solution. 
+                                In the <span style="color: #FFA500">Build-Up Phase</span>, we focused on creating anticipation through teaser campaigns, behind-the-scenes content, and 
+                                participation in trending TikTok formats. The <span style="color: #FFA500">Launch Phase</span> aimed to drive attention and foot traffic with influencer visits, 
+                                live event coverage across social platforms, and limited-time promotional offers.
+                                Finally, the <span style="color: #FFA500">Sustain Phase</span> ensured continued engagement post-launch through remarketing ads, TikTok challenges, 
+                                and interactive contests. Each deliverable—social media management, paid advertising, content production, 
+                                design, influencer marketing, and outdoor branding—was strategically deployed to maximize visibility and impact at every stage.
                             </p>
                         </div>
                     </div>
@@ -186,7 +191,7 @@
         <div class="uk-container">
             <div class="uk-margin-large-top uk-margin-large-bottom">
                 <h2 class="uk-heading-small uk-margin-large">Gallery</h2>
-                <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+                <div class="uk-child-width-1-4@m" uk-grid uk-lightbox="animation: slide">
                     <div>
                         <a class="uk-inline" href="../images/megaplay/btse.jpg">
                             <img src="../images/megaplay/btse.jpg" width="1800" height="1200" alt="">
@@ -202,7 +207,83 @@
                             <img src="../images/megaplay/IMG-20250506-WA0226.jpg" width="1800" height="1200" alt="">
                         </a>
                     </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0227.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0227.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0228.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0228.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0229.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0229.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0230.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0230.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0232.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0232.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0240.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0240.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0234.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0234.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0233.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0233.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0238.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0238.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0236.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0236.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0235.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0235.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0239.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0239.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a class="uk-inline" href="../images/megaplay/IMG-20250506-WA0241.jpg">
+                            <img src="../images/megaplay/IMG-20250506-WA0241.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
