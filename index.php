@@ -291,6 +291,32 @@
                             <li>
                                 <div class="uk-grid-collapse" data-uk-grid>
                                     <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
+                                        <img src="images/baby_shower/baby_shower2.jpg" alt="Slide"
+                                            style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
+                                    </div>
+                                    <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
+                                        <div class="uk-padding-large">
+                                            <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Featured Project</h3>
+                                            <h2 class="uk-heading-small uk-margin-medium-top">Baby Shower Event Campaign</h2>
+                                            <div>
+                                                We partnered with The White Crescent Hospital–Ongata Rongai to design a Baby Shower 
+                                                Event Campaign blending health education with celebration. Through social media, outdoor branding, 
+                                                motion graphics, and themed visuals, we transformed free maternal services into a joyful community 
+                                                experience—boosting engagement, brand warmth, and awareness across digital and physical platforms.
+                                            </div>
+                                            <hr class="uk-margin-medium-top uk-separator-small">
+                                            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
+                                                <a class="hvr-forward" href="pages/baby_shower.php">Project Details<span class="uk-margin-left"
+                                                        data-uk-icon="arrow-right"></span></a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="uk-grid-collapse" data-uk-grid>
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
                                         <img src="images/densmile/463259578_1283475192683336_2446229085720325516_n (1).jpg" alt="Slide"
                                             style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
                                     </div>
