@@ -38,6 +38,26 @@
                 <div class="uk-text-center">
                     <div class="uk-box-shadow-large">
                         <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/baby_shower/baby_shower.jpg"
+                                alt="">
+                            <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+                                <div class="uk-position-center">
+                                    <div class="uk-transition-slide-top-small uk-margin-bottom">
+                                        <h4 class="uk-margin-remove" style="color: #ffffff;">Baby Shower Event Campaign</h4>
+                                        </h4>
+                                    </div>
+                                    <div class="uk-transition-slide-bottom-small uk-button-text">
+                                        <a href="baby_shower.php" class="uk-button uk-button-large uk-button-default">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+
+                <div class="uk-text-center">
+                    <div class="uk-box-shadow-large">
+                        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
                             <img class="uk-transition-scale-up uk-transition-opaque" src="../images/megaplay/play_2.jpg"
                                 alt="">
                             <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
