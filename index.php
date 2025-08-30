@@ -3,6 +3,12 @@
 
 <head>
     <?php include_once("templates/head.php") ?>
+    <style>
+        .fade-out {
+            opacity: 0;
+            transition: opacity 0.6s ease;
+        }
+    </style>
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -62,6 +68,12 @@
 </div>
 
 <body> 
+
+    <!-- Preloader -->
+    <!-- <div id="preloader" class="uk-position-fixed uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-background-muted" style="z-index: 9999;">
+        <img src="spinner.gif" alt="Loading..." style="width:80px;">
+    </div> -->
+
     <!--Header Section-->
 
     <header id="">
@@ -503,6 +515,33 @@
                                 </div>
                             </li>
 
+                            <li>
+                                <div class="uk-grid-collapse" data-uk-grid>
+                                    <div class="uk-width-1-2@s uk-visible@l uk-visble@m">
+                                        <img src="images/petsjoy/IMG-20250827-WA0047.jpg" alt="Slide"
+                                            style="height: 640px; aspect-ratio: 1/1; object-fit: cover;">
+                                    </div>
+                                    <div class="uk-width-expand@s uk-flex uk-flex-middle uk-light">
+                                        <div class="uk-padding-large">
+                                            <h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Featured Project</h3>
+                                            <h2 class="uk-heading-small uk-margin-medium-top">Pets' Joy Kenya </h2>
+                                            <div>
+                                            PetsJoy Kenya sought to boost its online presence and engage more effectively with pet owners. 
+                                            Jemsa Media Tech delivered an emotion-driven strategy using social media management, 
+                                            Meta ads, WhatsApp Business integration, and creative content production. 
+                                            The result? Strong brand identity, higher engagement, and increased sales—positioning 
+                                            PetsJoy as a trusted pet care brand..
+                                            </div>
+                                            <hr class="uk-margin-medium-top uk-separator-small">
+                                            <h3 class="uk-margin-remove uk-text-uppercase uk-h5 uk-letter-spacing-small">
+                                                <a class="hvr-forward" href="pages/petsjoy.php">Project Details<span class="uk-margin-left"
+                                                        data-uk-icon="arrow-right"></span></a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
                         </ul>
                     </div>
 
@@ -622,6 +661,19 @@
         <?php include_once("templates/mobile_menu.php") ?>
     </div>
 
+    <!-- <script>
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('preloader');
+            const content = document.querySelector('.content');
+        
+            preloader.classList.add('fade-out');
+        
+            setTimeout(() => {
+                preloader.style.display = 'none';
+                content.style.display = 'block';
+            }, 600); // Matches fade transition
+        });
+   </script> -->
 </body>
 
 </html>
