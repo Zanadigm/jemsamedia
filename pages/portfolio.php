@@ -33,8 +33,28 @@
     <div id="work" class="uk-section uk-section-large">
         <div class="uk-container">
 
-            <div class="uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-match uk-grid-large" uk-grid>
+            <div class="uk-child-width-1-3@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-match uk-grid-large" uk-grid>
                 
+                <div class="uk-text-center">
+                    <div class="uk-box-shadow-large">
+                        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                            <img class="uk-transition-scale-up uk-transition-opaque" src="../images/petsjoy/petsjoy.jpg"
+                                alt="">
+                            <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+                                <div class="uk-position-center">
+                                    <div class="uk-transition-slide-top-small uk-margin-bottom">
+                                        <h4 class="uk-margin-remove" style="color: #ffffff;">Pets Joy kenya</h4>
+                                        </h4>
+                                    </div>
+                                    <div class="uk-transition-slide-bottom-small uk-button-text">
+                                        <a href="petsjoy.php" class="uk-button uk-button-large uk-button-default">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
                 <div class="uk-text-center">
                     <div class="uk-box-shadow-large">
                         <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
