@@ -13,13 +13,9 @@
 <!-- Mega Play Arcade video popup -->
 <div class="uk-modal-dialog uk-margin-auto-vertical uk-flex uk-flex-center uk-flex-middle " style="width: 100%">
     <button class="uk-modal-close-outside" type="button" uk-close></button>
-    <video autoplay loop muted playsinline uk-video class="uk-border-rounded">
-        <source src="images/MEGA BANNER.mp4" type="video/mp4">
-    </video>
-
+    <img src="images/banner.png"alt="Mega Play Arcade" class="uk-border-rounded"style="max-width: 100%; height: auto;">
     <!-- Click overlay -->
-    <a href="https://www.instagram.com/megaplay_arcade?igsh=aHpwaHUwMG5yaGU4" 
-       target="_blank" 
+    <a href="https://jemsamediatech.africa#section-about" 
        class="click-overlay"
        id="click-to-whatsapp">
     </a>
