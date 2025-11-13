@@ -32,11 +32,11 @@
                 <form id = "contactForm" class="uk-grid-small uk-margin-medium-top" data-uk-grid>
 
                     <div class="uk-width-1-1">
-                        <input class="uk-input uk-form-large" type="text" placeholder="Full Name">
+                        <input class="uk-input uk-form-large" type="text" placeholder="Full Name" name="name" id="name">
                     </div>
 
                     <div class="uk-width-1-1">
-                        <input class="uk-input uk-form-large" type="email" placeholder="Email Address">
+                        <input class="uk-input uk-form-large" type="email" placeholder="Email Address" name="email" id="email">
                     </div>
 
                     <div class="uk-width-1-1">
@@ -48,8 +48,14 @@
                     </div>
 
                     <div class="uk-width-1-1">
-                        <textarea class="uk-textarea uk-form-large" rows="5" placeholder="Message"></textarea>
+                        <textarea class="uk-textarea uk-form-large" rows="5" placeholder="Message" id="message" name="message"></textarea>
                     </div>
+
+                    <div class="uk-width-1-1" style="display:none">
+                        <input type="text" name="website">
+                    </div>
+
+                    
 
                     <div class="uk-width-1-1">
                         <button class="uk-button uk-button-large uk-button-primary" type="submit" name="submit">Send Message</button>

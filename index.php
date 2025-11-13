@@ -85,7 +85,7 @@
     <div id="scetion_hero" class="uk-section-large uk-padding-remove-top uk-flex uk-flex-middle uk-flex-center">
         <div class="uk-container">
             <video autoplay muted loop playsinline style="max-width:100%; height: auto; border-radius: 6px"
-                src="images/hero.mp4">
+                src="images/hero2.mp4">
             </video>
         </div>
     </div>
@@ -674,6 +674,38 @@
             }, 600); // Matches fade transition
         });
    </script> -->
+
+   <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const form = e.target;
+            const formAlert = document.getElementById('formAlert');
+            formAlert.innerHTML = '';
+
+            // Basic client-side validation
+            if (!form.name.value.trim() || !form.email.value.trim() || !form.reason.value.trim() || !form.message.value.trim()) {
+                formAlert.innerHTML = '<span class="uk-text-danger">All fields are required.</span>';
+                return;
+            }
+
+            fetch('/send_mail.php', {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.success) {
+                    formAlert.innerHTML = '<span class="uk-text-success">' + data.message + '</span>';
+                    form.reset();
+                } else {
+                    formAlert.innerHTML = '<span class="uk-text-danger">' + data.message + '</span>';
+                }
+            })
+            .catch(() => {
+                formAlert.innerHTML = '<span class="uk-text-danger">There was an error sending your message.</span>';
+            });
+        });
+    </script>
 </body>
 
 </html>
